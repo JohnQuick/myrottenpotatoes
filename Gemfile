@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+# use Haml for templates
+gem 'haml'
+# use Ruby debugger
+group :development, :test do
+  gem 'debugger'
+end
+
 gem 'rails', '3.2.18'
 
 # Bundle edge Rails instead:
